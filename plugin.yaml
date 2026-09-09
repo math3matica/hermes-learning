@@ -1,0 +1,10 @@
+name: rex-learning
+version: 1.0.0
+description: "Evidence-gated, provider-neutral source-to-study orchestration using host-owned state and ctx.llm."
+author: "Hermes"
+kind: standalone
+entrypoint: .hermes/plugins/rex-learning/__init__.py
+commands:
+  - rex-learning
+cli_commands:
+  - rex-learning

@@ -1,0 +1,8 @@
+# Host-owned configuration example. Do not put credentials here.
+[rex_learning]
+# Optional; defaults to $HERMES_HOME/rex-learning.
+state_dir = "~/.hermes/rex-learning"
+# Jobs remain durable and explicit; a host worker invokes `worker <job-id>`.
+execution = "durable-worker"
+# The host supplies the active model through ctx.llm.
+provider = "host-owned"

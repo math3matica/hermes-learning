@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+!.env.example
+# Runtime state, evidence, sources, and credentials
+state/
+evidence/
+artifacts/
+models/
+*.epub
+*.pdf
+*.jsonl
+*.sqlite*
+.hermes/*/state/
+.hermes/*/evidence/
